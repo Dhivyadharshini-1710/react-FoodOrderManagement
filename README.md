@@ -9,7 +9,7 @@ This is a simple Food Order Management application built with React. It allows u
 - **Order List**: Displays the current order list with food items and their quantities.
 - **Editing Quantities**: Users can edit the quantity of each item directly from the order list.
 - **Total Price Calculation**: The total price of the order is calculated and displayed.
-- 
+  
 ## Technologies Used
 
 - **React**  
