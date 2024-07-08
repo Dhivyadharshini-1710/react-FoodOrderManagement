@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  background-color: lightyellow;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.order-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.order-item:last-child {
+  border-bottom: none;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions input {
+  width: 60px;
+  margin-right: 10px;
+}
